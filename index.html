@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
@@ -13,20 +14,25 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <p class="logo">
+                    <span>S</span>ubhankar.
+                </p>
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a style="font-weight: 500; font-size: 18px;"  href="#header">Home</a></li>
+                    <li><a style="font-weight: 500; font-size: 18px;" href="#about">About</a></li>
+                    <li><a style="font-weight: 500; font-size: 18px;" href="#services">Services</a></li>
+                    <li><a style="font-weight: 500; font-size: 18px;" href="#portfolio">Portfolio</a></li>
+                    <li><a style="font-weight: 500; font-size: 18px;" href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
-                <h1>Hi,I'm<Span>Subhankar</Span></h1>
+                <p><span style="font-weight: 600; font-size: larger; color: violet;">Web Developer</span> </p>
+                <h1>Hi,I'm<Span style="color:aqua;">Subhankar</Span><p id="info-text" style="font-size: 28px;">currently pursuing my B.tech 
+                    from Meghnad Saha
+                    Institute of Technology</p></h1>
             </div>
         </div>
     </div>
@@ -35,12 +41,12 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png" alt="">
+                    <img src="images/All-About-Me-Gif-Template.jpeg" alt="all about me">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <p class="paragraph">
-                        I'm Subhankar Agarwal, a software engineer with expertise in <span style="font-weight: 700;">HTML, CSS, JavaScript</span>. I'm passionate about building user-friendly web applications that solve complex problems. I've worked on different projects, from small personal websites to real time applications.Hope you will enjoy my work.
+                        I'm Subhankar Agarwal, a software engineer with expertise in <span style="font-weight: 700; color: aqua;">HTML, CSS, JavaScript</span>. I'm passionate about building user-friendly web applications that solve complex problems. I've worked on different projects, from small personal websites to real time applications.Hope you will enjoy my work.
                     </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -66,9 +72,9 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2024</span><br>B.TECH(Computer Science & Engineering)</li>
-                            <li><span>2020</span><br>Higher Secondary Education</li>
-                            <li><span>2018</span><br>Madhyamik Examination</li>
+                            <li><span>2024</span><br>B.TECH(Computer Science & Engineering)<br><span style="font-size: 14px">9.1cgpa</span></li>
+                            <li><span>2020</span><br>Higher Secondary Education<br><span style="font-size: 14px">77%</span></li>
+                            <li><span>2018</span><br>Madhyamik Examination<br><span style="font-size: 14px">82%</span></li>
                         </ul>
                     </div>
                 </div>
